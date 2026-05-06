@@ -1,0 +1,5 @@
+n = int(input())
+s=input()
+o=s.count('n')
+z=s.count('z')
+print(("1 "*o + "0 "*z).strip())
